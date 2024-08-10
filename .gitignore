@@ -1,0 +1,44 @@
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dotCover
+*.DotSettings.user
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Mac files
+*.DS_Store
+
+# Azure Web Apps deployment
+.venv/
+.local/
+
+# npm packages
+node_modules/
+
+# Environment variables
+.env
+
+# VS Code directories
+.vscode/
+.history/
+
+# JetBrains Rider
+.idea/
