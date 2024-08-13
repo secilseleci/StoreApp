@@ -63,9 +63,9 @@ namespace Services
             return product;
         }
 
-        public ProductDtoForUpdate GetOneProductForUpdate(int id, bool trakcChanges)
+        public ProductDtoForUpdate GetOneProductForUpdate(int id, bool trackChanges)
         {
-            var product = GetOneProduct(id, trakcChanges);
+            var product = GetOneProduct(id, trackChanges);
             var productDto = _mapper.Map<ProductDtoForUpdate>(product);
             return productDto;
         }
